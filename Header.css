@@ -1,0 +1,95 @@
+.header{
+    height: 40px;;
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    background-color:white;
+    top: 0;
+    box-shadow: opx 5px 8px -9px rgba(0,0,0,0.75);
+}
+
+.header__left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+
+
+
+.header__left > img {
+    height: 65px;
+    width: 65px;
+    margin-top: -10px;
+    color: white;
+
+}
+
+.header__input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header__middle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header__option > .MuiIconButton-root {
+    color: tomato;
+}
+
+.header__option:hover > .MuiIconButton-root {
+    color: darkred;
+}
+
+.header__option{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header__option:hover {
+
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__info > h4 {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: tomato;
+}
+
+.header__right {
+    display: flex;
+}
+
+.header__option--active > .MuiIconButton-root {
+    color:darkred;
+}
+
+.header__option--active {
+    border-bottom: 4px solid #8b0000 ;
+}

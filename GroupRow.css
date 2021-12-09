@@ -1,0 +1,52 @@
+.groupRow {
+   
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+    height: 270px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    margin-left: 10px;
+
+}
+
+.title2{
+    position: absolute;
+    color: tomato;
+    left: 197px;
+    top: 10px;
+}
+
+.group1{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+
+.group2{
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+
+.group3{
+    position: absolute;
+    top: 170px;
+    left: 90px;
+}
+
+
+.group {
+    margin-left: 0;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.groupIcon > .MuiSvgIcon-root{
+    margin-left: 120px;
+    color: tomato;
+    width: 50px;
+    height: 50px;
+}

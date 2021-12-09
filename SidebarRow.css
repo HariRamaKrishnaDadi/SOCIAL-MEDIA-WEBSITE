@@ -1,0 +1,62 @@
+
+.sidebarRow {
+    position: absolute;
+    position: fixed;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    margin-top: 10px;
+    
+}
+
+.title{
+    color: tomato;
+    position: absolute;
+    right: 80px;
+    margin-top: 70px;
+}
+.edit{
+    
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    
+}
+
+.connections{
+    
+    position:absolute;
+    top: 80px;
+    right: 30px;
+
+}
+
+.myProfile{
+    
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
+
+.sidebarRow > .MuiIconButton-root {
+    height: 30px;
+}
+
+.sidebarRow > .MuiAvatar-root {
+    width: 60px;
+    height: 60px;
+    margin-left: 120px;
+    
+}
+
+h3{
+  
+    margin-left: -75px;
+    font-weight: 600;
+    margin-top: 70px;
+}
